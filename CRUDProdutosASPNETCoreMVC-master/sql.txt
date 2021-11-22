@@ -1,0 +1,18 @@
+
+CREATE DATABASE traycorp;
+use traycorp
+
+CREATE TABLE Produto (
+    Produto_id  INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    Nome varchar(255) ,
+    Descricao varchar(255),
+    Quantidade int,
+    Preco float
+);
+
+INSERT INTO produto (Nome,Descricao,Quantidade,Preco) values ('mesa de brilhar valcon','mesa de brilhar',5,220.90)
+INSERT INTO produto (Nome,Descricao,Quantidade,Preco) values ('tenis nike','tenis',6,120.40)
+INSERT INTO produto (Nome,Descricao,Quantidade,Preco) values ('casaco adidas','casaco',10,79.90)
+INSERT INTO produto (Nome,Descricao,Quantidade,Preco) values ('chuteira puma','chuteira',3,130.80)
+INSERT INTO produto (Nome,Descricao,Quantidade,Preco) values ('video game  n64','video game ',7,500.80)
+
